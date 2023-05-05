@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    /* background-color: bisque; */
+
+}
+
+
+#main-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    /* border: solid 17px darkgray; */
+}
+
