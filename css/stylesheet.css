@@ -1,7 +1,6 @@
 body {
     margin: 0px;
-    /* background-color: bisque; */
-
+background-color: rgb(211, 134, 134);
 }
 
 
@@ -13,7 +12,17 @@ body {
     margin-right: auto;
     width: 1000px;
     height: 2000px;
-    background-color: rgb(255, 255, 255);
-    /* border: solid 17px darkgray; */
+    background-image: url("star-image.png");
+    background-repeat: repeat;
+    background: linear-gradient(#443636, #000000)
 }
 
+
+#logo { 
+align-items: center;
+justify-content: center;
+}
+
+#the-nav-bar {
+
+}
