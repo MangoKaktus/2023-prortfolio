@@ -5,6 +5,7 @@ background-color: rgb(211, 134, 134);
 
 
 #main-container {
+    display: flex;
     position: absolute;
     left: 0;
     right: 0;
@@ -17,12 +18,25 @@ background-color: rgb(211, 134, 134);
     background: linear-gradient(#443636, #000000)
 }
 
+#lil-box {
+    background-color: #443636;
+   border-style: groove 200px;
+    width: 624px;
+    height: 131px;
+    position: absolute;
+    top: 50px;
+}
 
 #logo { 
-align-items: center;
-justify-content: center;
+   position: absolute;
+    left: 760px;
 }
 
-#the-nav-bar {
-
+#nav-bar {
+    position: absolute;
+   left: 770px;
+   top: 230px;
 }
+
+
+
