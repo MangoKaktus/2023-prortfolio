@@ -20,12 +20,29 @@ background-color: rgb(211, 134, 134);
 
 #lil-box {
     background-color: #443636;
-   border-style: groove 200px;
+    color: aliceblue;
     width: 624px;
     height: 131px;
     position: absolute;
     top: 50px;
 }
+
+#text-container {
+    background-color: aliceblue;
+    width: 430px;
+    height: 230px;
+    top: 310px;
+    left: -500;
+    position: absolute;
+}
+
+#Proflo-Art {
+    position: absolute;
+    top: 630px;
+    left: 430px;
+    color: aliceblue;
+}
+
 
 #logo { 
    position: absolute;
@@ -36,7 +53,29 @@ background-color: rgb(211, 134, 134);
     position: absolute;
    left: 770px;
    top: 230px;
+   color: aliceblue;
+}
+
+#About-Me {
+    position: absolute;
+    top: 1300px;
+    left: 430px;
+    color: aliceblue;
+}
+
+#end-box {
+    position: absolute;
+    background-color: #6C1D35;
+top: 2000px;
+width: 1000px;
+height: 250px;
+}
+
+a {
+    text-decoration: none;
 }
 
 
-
+#main {
+    
+}
