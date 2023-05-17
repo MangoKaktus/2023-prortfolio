@@ -71,11 +71,14 @@ width: 1000px;
 height: 250px;
 }
 
-a {
+a  {
     text-decoration: none;
 }
 
 
 #main {
-    
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    color: #443636;
 }
