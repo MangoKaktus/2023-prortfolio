@@ -13,10 +13,12 @@ background-color: rgb(211, 134, 134);
     margin-right: auto;
     width: 1000px;
     height: 2000px;
-    background-image: url("star-image.png");
-    background-repeat: repeat;
+    background-image: url("star image.png");
+    background-repeat: repeat-x;
     background: linear-gradient(#443636, #000000)
 }
+
+/* gasp */
 
 #lil-box {
     background-color: #443636;
@@ -36,22 +38,66 @@ background-color: rgb(211, 134, 134);
     position: absolute;
 }
 
+#about-me-text1 {
+position: absolute;
+background-color: #6C1D35;
+top: 1450px;
+left: 50px;
+width: 200px;
+height: 500px;
+}
+
+#about-me-text2 {
+    position: absolute;
+    background-color: #6C1D35;
+    left: 350px;
+    top: 1700px;
+    width: 300px;
+    height: 250px;
+}
+
+#about-me-text3 {
+    position: absolute;
+background-color: #6C1D35;
+top: 1450px;
+left: 750px;
+width: 200px;
+height: 500px;
+}
+
 #Proflo-Art {
     position: absolute;
     top: 630px;
-    left: 430px;
+    left: 400px;
     color: aliceblue;
 }
 
 
+/* begaging of image css */
 #logo { 
    position: absolute;
     left: 760px;
 }
 
+#logo2 {
+    position: absolute;
+    left: 20px;
+    top: 2050px;
+}
+
+#muto {
+    position: absolute;
+    left: 230px;
+    top: 880;
+}
+
+
+
+/* end of image */
+
 #nav-bar {
     position: absolute;
-   left: 770px;
+   left: 880px;
    top: 230px;
    color: aliceblue;
 }
@@ -65,10 +111,15 @@ background-color: rgb(211, 134, 134);
 
 #end-box {
     position: absolute;
-    background-color: #6C1D35;
+    background-color: #3e111e;
 top: 2000px;
 width: 1000px;
 height: 250px;
+}
+
+#text {
+    position: absolute;
+    left: 500px;
 }
 
 a  {
