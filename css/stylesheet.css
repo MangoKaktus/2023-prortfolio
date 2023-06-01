@@ -21,7 +21,7 @@ background-color: rgb(211, 134, 134);
 /* gasp */
 
 #lil-box {
-    background-color: #443636;
+    background-color: #6a3939;
     color: aliceblue;
     width: 624px;
     height: 131px;
@@ -117,6 +117,7 @@ color: aliceblue;
    left: 880px;
    top: 230px;
    color: aliceblue;
+   text-decoration: none;
 }
 
 #About-Me {
@@ -124,6 +125,18 @@ color: aliceblue;
     top: 1300px;
     left: 430px;
     color: aliceblue;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+
+#About-Me:hover {
+    color: aliceblue;
+    background-color: #3e111e;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
 }
 
 #end-box {
@@ -151,3 +164,48 @@ a  {
     left: 500px;
     color: #443636;
 }
+#Main-page {
+    color: aliceblue;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#Main-page:hover {
+    color: aliceblue;
+    background-color: #3e111e;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#prof-page {
+    color: aliceblue;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#prof-page:hover {
+    color: aliceblue;
+    background-color: #3e111e;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#about-page {
+    color: aliceblue;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#about-page:hover {
+    color: aliceblue;
+    sbackground-color: #3e111e;
+    transition-property: background-color color aliceblue;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
