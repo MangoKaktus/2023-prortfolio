@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-background-color: rgb(211, 134, 134);
+background-color: rgb(61, 20, 20);
 }
 
 
@@ -8,14 +8,21 @@ background-color: rgb(211, 134, 134);
     display: flex;
     position: absolute;
     left: 0;
-    background-image: url(file:///G:/My%20Drive/Digtal%20design/unit%202%20web%20design/profilo-cite/2023-prortfolio/Img/star%20image.png);
-    background-image: repeat;
+    /* background-image: url("star image.png");
+    background-repeat: repeat-y;
+    background-position: 30px; */
     right: 0;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
     height: 2000px;
+    border: 10px solid aliceblue ;
     background: linear-gradient(#443636, #000000)
+    
+}
+
+#stary {
+    background-repeat: repeat;
 }
 
 /* gasp */
@@ -23,10 +30,12 @@ background-color: rgb(211, 134, 134);
 #lil-box {
     background-color: #6a3939;
     color: aliceblue;
-    width: 624px;
+    width: 500px;
     height: 131px;
     position: absolute;
     top: 50px;
+    border: 10px solid #6C1D35;
+
 }
 
 #text-container {
@@ -34,7 +43,9 @@ background-color: rgb(211, 134, 134);
     width: 430px;
     height: 230px;
     top: 310px;
-    left: -500;
+    left: 250px;
+    text-align: center;
+    text-decoration-color: #7a0727;
     position: absolute;
 }
 
@@ -119,6 +130,8 @@ color: aliceblue;
    color: aliceblue;
    text-decoration: none;
 }
+
+
 
 #About-Me {
     position: absolute;
